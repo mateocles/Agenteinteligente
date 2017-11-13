@@ -1,0 +1,212 @@
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\ApplicationInsights.config
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\roslyn\csc.exe
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\roslyn\vbc.exe
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\roslyn\VBCSCompiler.exe
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\Agente_1.dll.config
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\Agente_1.dll
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\Agente_1.pdb
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\Microsoft.AI.Web.dll
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\Microsoft.AI.Web.xml
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\obj\Debug\Agente_1.csprojResolveAssemblyReference.cache
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\obj\Debug\Agente_1.dll
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\obj\Debug\Agente_1.pdb
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\MySql.Data.dll
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\MySql.Data.Entity.dll
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\MySql.Data.Entity.EF6.dll
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\MySql.Fabric.Plugin.dll
+C:\Users\Giecom\Desktop\Proyecto\RqSoft v2.0\Aplicativo\Agente_1\Agente_1\bin\MySql.Web.dll
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\ApplicationInsights.config
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\roslyn\csc.exe
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\roslyn\vbc.exe
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\roslyn\VBCSCompiler.exe
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\Agente_1.dll.config
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\Agente_1.dll
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\Agente_1.pdb
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\Microsoft.AI.Web.dll
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\MySql.Data.dll
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\MySql.Data.Entity.dll
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\MySql.Data.Entity.EF6.dll
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\MySql.Fabric.Plugin.dll
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\MySql.Web.dll
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\Microsoft.AI.Web.xml
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\obj\Debug\Agente_1.csprojResolveAssemblyReference.cache
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\obj\Debug\Agente_1.dll
+C:\Users\Giecom\Desktop\Agente_1\Agente_1\obj\Debug\Agente_1.pdb
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\ApplicationInsights.config
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\roslyn\csc.exe
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\roslyn\vbc.exe
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\roslyn\VBCSCompiler.exe
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\Agente_1.dll.config
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\Agente_1.dll
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\Agente_1.pdb
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\Microsoft.AI.Web.dll
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\MySql.Data.dll
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\MySql.Data.Entity.dll
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\MySql.Data.Entity.EF6.dll
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\MySql.Fabric.Plugin.dll
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\MySql.Web.dll
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\Microsoft.AI.Web.xml
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\obj\Debug\Agente_1.csprojResolveAssemblyReference.cache
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\obj\Debug\Agente_1.dll
+C:\Users\Cristian Camilo\Desktop\Agente_1\Agente_1\obj\Debug\Agente_1.pdb
+I:\.l\Agente_1\Agente_1\bin\ApplicationInsights.config
+I:\.l\Agente_1\Agente_1\bin\roslyn\csc.exe
+I:\.l\Agente_1\Agente_1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+I:\.l\Agente_1\Agente_1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+I:\.l\Agente_1\Agente_1\bin\roslyn\Microsoft.CodeAnalysis.dll
+I:\.l\Agente_1\Agente_1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+I:\.l\Agente_1\Agente_1\bin\roslyn\Microsoft.CSharp.Core.targets
+I:\.l\Agente_1\Agente_1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+I:\.l\Agente_1\Agente_1\bin\roslyn\System.Collections.Immutable.dll
+I:\.l\Agente_1\Agente_1\bin\roslyn\System.Reflection.Metadata.dll
+I:\.l\Agente_1\Agente_1\bin\roslyn\vbc.exe
+I:\.l\Agente_1\Agente_1\bin\roslyn\VBCSCompiler.exe
+I:\.l\Agente_1\Agente_1\bin\roslyn\VBCSCompiler.exe.config
+I:\.l\Agente_1\Agente_1\bin\Agente_1.dll.config
+I:\.l\Agente_1\Agente_1\bin\Agente_1.dll
+I:\.l\Agente_1\Agente_1\bin\Agente_1.pdb
+I:\.l\Agente_1\Agente_1\bin\Microsoft.AI.Agent.Intercept.dll
+I:\.l\Agente_1\Agente_1\bin\Microsoft.AI.DependencyCollector.dll
+I:\.l\Agente_1\Agente_1\bin\Microsoft.AI.PerfCounterCollector.dll
+I:\.l\Agente_1\Agente_1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+I:\.l\Agente_1\Agente_1\bin\Microsoft.AI.Web.dll
+I:\.l\Agente_1\Agente_1\bin\Microsoft.AI.WindowsServer.dll
+I:\.l\Agente_1\Agente_1\bin\Microsoft.ApplicationInsights.dll
+I:\.l\Agente_1\Agente_1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+I:\.l\Agente_1\Agente_1\bin\Microsoft.AI.DependencyCollector.xml
+I:\.l\Agente_1\Agente_1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+I:\.l\Agente_1\Agente_1\bin\Microsoft.AI.Web.xml
+I:\.l\Agente_1\Agente_1\bin\Microsoft.AI.WindowsServer.xml
+I:\.l\Agente_1\Agente_1\bin\Microsoft.ApplicationInsights.xml
+I:\.l\Agente_1\Agente_1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+I:\.l\Agente_1\Agente_1\obj\Debug\Agente_1.csprojResolveAssemblyReference.cache
+I:\.l\Agente_1\Agente_1\obj\Debug\Agente_1.dll
+I:\.l\Agente_1\Agente_1\obj\Debug\Agente_1.pdb
+D:\.l\Agente_1\Agente_1\bin\ApplicationInsights.config
+D:\.l\Agente_1\Agente_1\bin\roslyn\csc.exe
+D:\.l\Agente_1\Agente_1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\.l\Agente_1\Agente_1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\.l\Agente_1\Agente_1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\.l\Agente_1\Agente_1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\.l\Agente_1\Agente_1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\.l\Agente_1\Agente_1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\.l\Agente_1\Agente_1\bin\roslyn\System.Collections.Immutable.dll
+D:\.l\Agente_1\Agente_1\bin\roslyn\System.Reflection.Metadata.dll
+D:\.l\Agente_1\Agente_1\bin\roslyn\vbc.exe
+D:\.l\Agente_1\Agente_1\bin\roslyn\VBCSCompiler.exe
+D:\.l\Agente_1\Agente_1\bin\roslyn\VBCSCompiler.exe.config
+D:\.l\Agente_1\Agente_1\bin\Agente_1.dll
+D:\.l\Agente_1\Agente_1\bin\Agente_1.pdb
+D:\.l\Agente_1\Agente_1\bin\Microsoft.AI.Agent.Intercept.dll
+D:\.l\Agente_1\Agente_1\bin\Microsoft.AI.DependencyCollector.dll
+D:\.l\Agente_1\Agente_1\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\.l\Agente_1\Agente_1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\.l\Agente_1\Agente_1\bin\Microsoft.AI.Web.dll
+D:\.l\Agente_1\Agente_1\bin\Microsoft.AI.WindowsServer.dll
+D:\.l\Agente_1\Agente_1\bin\Microsoft.ApplicationInsights.dll
+D:\.l\Agente_1\Agente_1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\.l\Agente_1\Agente_1\bin\Microsoft.AI.DependencyCollector.xml
+D:\.l\Agente_1\Agente_1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\.l\Agente_1\Agente_1\bin\Microsoft.AI.Web.xml
+D:\.l\Agente_1\Agente_1\bin\Microsoft.AI.WindowsServer.xml
+D:\.l\Agente_1\Agente_1\bin\Microsoft.ApplicationInsights.xml
+D:\.l\Agente_1\Agente_1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\.l\Agente_1\Agente_1\obj\Debug\Agente_1.csprojResolveAssemblyReference.cache
+D:\.l\Agente_1\Agente_1\obj\Debug\Agente_1.dll
+D:\.l\Agente_1\Agente_1\obj\Debug\Agente_1.pdb
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\bin\ApplicationInsights.config
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\bin\roslyn\csc.exe
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\bin\roslyn\vbc.exe
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\bin\roslyn\VBCSCompiler.exe
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\bin\Agente_1.dll.config
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\bin\Agente_1.dll
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\bin\Agente_1.pdb
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\bin\Microsoft.AI.Web.dll
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\bin\Microsoft.ApplicationInsights.dll
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\bin\Microsoft.AI.Web.xml
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\bin\Microsoft.ApplicationInsights.xml
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\obj\Debug\Agente_1.csprojResolveAssemblyReference.cache
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\obj\Debug\Agente_1.dll
+C:\Users\PC1\Desktop\.l\Agente_1\Agente_1\obj\Debug\Agente_1.pdb

@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0C2838B1-04CE-4E6E-843A-B7B544BE6EAA}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Agente_1</RootNamespace>
+    <AssemblyName>Agente_1</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=2.0.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.0.6\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.2.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.2.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.2.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.2.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.2.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.2.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data.Entity, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Fabric.Plugin, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Web, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\css\animate.css" />
+    <Content Include="assets\css\magnific-popup.css" />
+    <Content Include="assets\css\masonry.css" />
+    <Content Include="assets\css\odometer-theme-default.css" />
+    <Content Include="assets\css\pushy.css" />
+    <Content Include="assets\css\_pgbackup\animate_1454658512.css" />
+    <Content Include="assets\css\_pgbackup\animate_1454658545.css" />
+    <Content Include="assets\css\_pgbackup\animate_1454658546.css" />
+    <Content Include="assets\css\_pgbackup\animate_1454658586.css" />
+    <Content Include="assets\css\_pgbackup\animate_1454658666.css" />
+    <Content Include="assets\css\_pgbackup\animate_1454658717.css" />
+    <Content Include="assets\css\_pgbackup\animate_1454658739.css" />
+    <Content Include="assets\css\_pgbackup\animate_1454658761.css" />
+    <Content Include="assets\css\_pgbackup\animate_1454658763.css" />
+    <Content Include="assets\css\_pgbackup\animate_1454658777.css" />
+    <Content Include="assets\css\_pgbackup\animate_1454658812.css" />
+    <Content Include="assets\css\_pgbackup\animate_1454658817.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454606555.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454606572.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454606654.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454607400.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454607457.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454607498.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454607518.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454607534.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454608092.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454608269.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454608569.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454608685.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454608859.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454608874.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454609605.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454609638.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454609652.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454609773.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454609850.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454609925.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454611496.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454611698.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454611807.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454611898.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454612183.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454629585.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454629603.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454629619.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454629700.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454629733.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454629765.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454629782.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454629863.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454629892.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454629904.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454629918.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454629999.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454630083.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454630170.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454630234.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454630251.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454630253.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454630317.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454630327.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454630493.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454630642.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454630653.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454630728.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454630742.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454630769.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454630800.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454630833.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454630839.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454658117.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454658159.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454658512.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454658545.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454658546.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454658586.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454658666.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454658717.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454658739.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454658761.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454658763.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454658777.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454658812.css" />
+    <Content Include="assets\css\_pgbackup\masonry_1454658817.css" />
+    <Content Include="assets\js\holder.js" />
+    <Content Include="assets\js\holder.min.js" />
+    <Content Include="assets\js\ie-emulation-modes-warning.js" />
+    <Content Include="assets\js\ie10-viewport-bug-workaround.js" />
+    <Content Include="assets\js\jquery.magnific-popup.min.js" />
+    <Content Include="assets\js\jquery.min.js" />
+    <Content Include="assets\js\masonry.js" />
+    <Content Include="assets\js\odometer.js" />
+    <Content Include="assets\js\pushy.min.js" />
+    <Content Include="assets\js\scripts.js" />
+    <Content Include="assets\js\wow.min.js" />
+    <Content Include="bootstrap\css\bootstrap.css" />
+    <Content Include="bootstrap\css\bootstrap.min.css" />
+    <Content Include="bootstrap\css\theme.css" />
+    <Content Include="bootstrap\css\_pgbackup\bootstrap_1454575207.css" />
+    <Content Include="bootstrap\css\_pgbackup\bootstrap_1454575577.css" />
+    <Content Include="bootstrap\css\_pgbackup\bootstrap_1454575605.css" />
+    <Content Include="bootstrap\css\_pgbackup\bootstrap_1454575623.css" />
+    <Content Include="bootstrap\css\_pgbackup\bootstrap_1454575701.css" />
+    <Content Include="bootstrap\css\_pgbackup\bootstrap_1454575762.css" />
+    <Content Include="bootstrap\css\_pgbackup\bootstrap_1454575837.css" />
+    <Content Include="bootstrap\css\_pgbackup\bootstrap_1454575861.css" />
+    <Content Include="bootstrap\css\_pgbackup\bootstrap_1454575921.css" />
+    <Content Include="bootstrap\css\_pgbackup\bootstrap_1454575996.css" />
+    <Content Include="bootstrap\css\_pgbackup\bootstrap_1454576045.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454578268.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454579308.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454583492.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454583575.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454583597.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454583676.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454583751.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454583786.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454583795.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454583906.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454584116.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454584148.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454584150.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454584306.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454584332.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454584336.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454584342.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454584354.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454584358.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454584368.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454584380.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454584402.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454584405.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454584408.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454586709.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454586740.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454586747.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454586758.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454586790.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454586807.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454586856.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454586876.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454587904.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454601752.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454601886.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454601902.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454601919.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454601949.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454602145.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454602179.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454602266.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454602299.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454602315.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454602358.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454602737.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454603106.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454603142.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454603178.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454603202.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454603210.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454603564.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454603571.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454603616.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454603649.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454603704.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454603740.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454603757.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454603827.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454603879.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454604096.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454604224.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454604406.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454604458.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454604505.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454604604.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454604661.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454604674.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454604680.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454604743.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454604748.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454604961.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454604988.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454605000.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454605024.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454605068.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454605077.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454605214.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454605256.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454605381.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454605409.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454605441.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454605463.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454605495.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454605502.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454605514.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454605535.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454605588.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454605645.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454605651.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454605663.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454605682.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454606024.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454606053.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454606092.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454606109.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454606115.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454606140.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454606193.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454606507.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454606526.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454606538.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454606555.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454606572.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454606654.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454607400.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454607457.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454607498.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454607518.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454607534.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454608092.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454608269.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454608569.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454608685.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454608859.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454608873.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454609605.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454609638.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454609652.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454609773.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454609850.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454609925.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454611496.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454611698.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454611807.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454611898.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454612183.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454629585.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454629603.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454629619.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454629700.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454629733.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454629765.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454629781.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454629863.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454629892.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454629904.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454629918.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454629999.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454630083.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454630170.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454630234.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454630251.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454630253.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454630317.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454630327.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454630493.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454630642.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454630653.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454630728.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454630742.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454630769.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454630800.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454630833.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454630839.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454658117.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454658159.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454658512.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454658545.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454658546.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454658586.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454658666.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454658717.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454658739.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454658761.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454658763.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454658777.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454658812.css" />
+    <Content Include="bootstrap\css\_pgbackup\theme_1454658817.css" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="bootstrap\js\bootstrap.js" />
+    <Content Include="bootstrap\js\bootstrap.min.js" />
+    <Content Include="bootstrap\js\npm.js" />
+    <Content Include="packages.config" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bootstrap\css\bootstrap.css.map" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="index.aspx" />
+    <Content Include="style.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Conexion\Conexion.cs" />
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Red\Red_Neuronal.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50038</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50038/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
